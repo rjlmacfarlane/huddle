@@ -1,0 +1,12 @@
+{
+  "name": "Huddle",
+  "version": "0.0.1",
+  "description": "AbleSense Skills Test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjlmacfarlane/huddle.git"
+  },
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
