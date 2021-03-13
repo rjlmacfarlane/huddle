@@ -113,6 +113,9 @@ p {
   }
 }
 
+footer {
+  text-align: right;
+}
 
 // *****************************
 // * Mobile (screens <= 375px) *
@@ -163,7 +166,7 @@ p {
     flex-direction: column;
     .flowing-conversations {
       display: flex;
-      flex-direction: row-reverse !important; 
+      flex-direction: column-reverse !important; 
     }
   }
 
