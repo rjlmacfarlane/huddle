@@ -5,6 +5,20 @@
   background-repeat: no-repeat;
   height: 100%;
   background-color: #ebfbff;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 85vw;
+  max-height: auto;
 }
 
 .btn {
@@ -15,6 +29,7 @@
   padding-right: 1.75em;
   padding-top: 0.35em;
   padding-bottom: 0.35em;
+  margin: 2em;
 }
 
 .header .top-bar {
@@ -41,7 +56,6 @@
   padding: 2em;
 }
 .header .hero .box-0 {
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   flex-basis: 30%;
@@ -62,9 +76,10 @@
     display: flex;
     justify-content: space-around;
   }
-  .hero img {
-    max-width: 55vw;
-    max-height: auto;
+
+  .content {
+    display: flex;
+    justify-content: space-around;
   }
 
   .btn {

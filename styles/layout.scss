@@ -5,7 +5,20 @@
   background-repeat: no-repeat;
   height: 100%;
   background-color: hsl(193, 100%, 96%);
+  align-items: center;
 }
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+img {
+  max-width: 85vw;
+  max-height: auto;
+}
+
 .btn {
   border: 2px transparent; 
   border-radius: 25px; 
@@ -14,6 +27,7 @@
   padding-right: 1.75em;
   padding-top: 0.35em;
   padding-bottom: 0.35em;
+  margin: 2em;
 }
 
 .header {
@@ -45,7 +59,6 @@
     padding: 2em;
 
     .box-0 {
-      font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 18px;
       flex-basis: 30%;     
@@ -71,11 +84,13 @@
   .hero {
     display: flex;
     justify-content: space-around;
-    img {
-      max-width: 55vw;
-      max-height: auto;
-    }
   }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
   .btn {
     padding-left: 2.75em;
     padding-right: 2.75em;
