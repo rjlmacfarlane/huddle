@@ -1,32 +1,77 @@
-.header {
+#main {
   background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
   background-color: #ebfbff;
 }
+
+.btn {
+  border: 2px transparent;
+  border-radius: 25px;
+  font-size: 18px;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
+}
+
 .header .top-bar {
+  display: flex;
+  justify-content: space-between;
   padding: 4em;
+}
+.header .top-bar img {
+  max-height: 40px;
+  max-width: auto;
+}
+.header .top-bar .btn-try {
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+  background-color: #fff;
+  /* Remove background color */
+  box-shadow: 0px 1px 0px #cad4dd, 0px 9px 25px rgba(196, 196, 196, 0.7);
+  -webkit-box-shadow: 0px 1px 0px #cad4dd, 0px 9px 25px rgba(196, 196, 196, 0.7);
+  -moz-box-shadow: 0px 1px 0px #cad4dd, 0px 9px 25px rgba(196, 196, 196, 0.7);
 }
 .header .hero {
   font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 4em;
+  margin-bottom: 10vh;
+  padding: 2em;
 }
-.header .hero .pitch {
-  margin-top: 10vh;
-  margin-right: 10vh;
-  font-family: "Open Sans", sans-serif !important;
+.header .hero .box-0 {
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   flex-basis: 30%;
+}
+.header .hero .box-1 img {
+  max-height: 50vh;
+  max-width: auto;
+}
+.header .hero .btn-primary {
+  background-color: #ff52bf;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #fff;
 }
 
 @media (min-width: 375px) {
   .hero {
     display: flex;
-    position: relative;
+    justify-content: space-around;
   }
-  .hero .img {
-    width: 325px;
+  .hero img {
+    max-width: 55vw;
+    max-height: auto;
+  }
+
+  .btn {
+    padding-left: 2.75em;
+    padding-right: 2.75em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
   }
 }
 

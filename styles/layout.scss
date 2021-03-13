@@ -1,39 +1,85 @@
-// #main {
-//   padding: 4em;
-// }
+#main {
+  background-image: url('../images/bg-hero-desktop.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-color: hsl(193, 100%, 96%);
+}
+.btn {
+  border: 2px transparent; 
+  border-radius: 25px; 
+  font-size: 18px;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
+}
 
 .header {
-  background-image: url('../images/bg-hero-desktop.svg');
-  background-color: hsl(193, 100%, 96%);
-  
+    
   .top-bar {
+    display: flex;
+    justify-content: space-between;
     padding: 4em;
+    img {
+      max-height: 40px;
+      max-width: auto;
+    }
+
+    .btn-try {
+      font-family: 'Poppins', sans-serif;
+      color:hsl(192, 100%, 9%);
+      background-color: #fff; /* Remove background color */
+
+      box-shadow: 0px 1px 0px hsl(208, 22%, 83%), 0px 9px 25px rgba(196, 196, 196, 0.7);
+      -webkit-box-shadow: 0px 1px 0px hsl(208, 22%, 83%), 0px 9px 25px rgba(196, 196, 196, 0.7);
+      -moz-box-shadow: 0px 1px 0px hsl(208, 22%, 83%), 0px 9px 25px rgba(196, 196, 196, 0.7);
+ 
+    }
   }
 
   .hero {
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 4em;
+    margin-bottom: 10vh;
+    padding: 2em;
 
-    .pitch {
-      margin-top: 10vh;
-      margin-right: 10vh;
-      font-family: 'Open Sans', sans-serif !important;
+    .box-0 {
+      font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 18px;
-      flex-basis: 30%;
+      flex-basis: 30%;     
     }
-    
+
+    .box-1 img {
+      max-height: 50vh;
+      max-width: auto;
+    }
+
+    .btn-primary {
+      background-color: hsl(322, 100%, 66%);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: #fff;
+
+    }
   }
 }
 
+
 @media (min-width: 375px) {
-  .hero{
+  .hero {
     display: flex;
-    position: relative;
-    .img {
-      width: 325px;
+    justify-content: space-around;
+    img {
+      max-width: 55vw;
+      max-height: auto;
     }
+  }
+  .btn {
+    padding-left: 2.75em;
+    padding-right: 2.75em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
   }
 }
