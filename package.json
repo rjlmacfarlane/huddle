@@ -7,6 +7,7 @@
     "url": "git+https://github.com/rjlmacfarlane/huddle.git"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "sass": "^1.32.8"
   }
 }
