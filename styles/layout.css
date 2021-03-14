@@ -23,6 +23,7 @@ footer {
   background-color: #00252e;
   color: #fff;
   padding: 5px;
+  bottom: 0;
 }
 
 .header {
@@ -93,6 +94,7 @@ footer {
   margin-top: 60px;
   font-size: 15px;
   color: #808d99;
+  margin-bottom: 15em;
 }
 
 .content-box {
@@ -114,18 +116,24 @@ footer {
 }
 
 .call-to-action {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  background-color: white;
+  width: 50%;
+  height: 12em;
+  margin-left: 25%;
+  margin-right: 25%;
   flex-direction: column;
   text-align: center;
   padding-bottom: 20px;
+  transform: translateY(-6em);
+  z-index: 1;
+  box-shadow: 0px -3px 3px rgba(196, 196, 196, 0.7);
 }
 .call-to-action .btn {
   font-size: 15px;
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  box-shadow: 0px 6px 9px rgba(196, 196, 196, 0.7);
 }
 
 .footer-container {
