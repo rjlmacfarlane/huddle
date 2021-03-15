@@ -2,34 +2,22 @@
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
-## The test
+## Completed by Ryan MacFarlane
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
+## Notes:
 
-Please use plain HTML, CSS, and JavaScript.
+Thank you for presenting this challenge. It has been my first experience building and styling a page from scratch and without any existing elements or default styles to work within. It was a fun and interesting learning opportunity!
 
-Your users should be able to: 
+My approach was as follows: I began by examining the provided design JPGs to determine the disparate and common attributes between each element, and how these would change between mobile and desktop views. Thereafter, I sketched out a pair of colour-coded grids for the footer and associated each colour with a class to aid the coding task later on.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+Once planning was complete, I tackled the project in a top-down fashion. First, I coded the uppermost elements in HTML, then applied CSS rules to them. This pattern was repeated until the footer, which was its own project. Once the footer was complete, I created and positioned the call-to-action box which straddles the boundry between the main content and the footer. Upon completing the layout, I then applied the active states to the buttons, links, and icons.
 
-## Where to find everything
+## Comments & Observations:
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+1. The instructions specify 375px and 1440px as the design-to viewport widths. My sense is that more breakpoints are required to ensure a consistently tidy look across this wide range, however I ultimately decided to adhere exactly to the instructions given. As such, the page displays best at 375px and 1440px.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. Don't stress too much about this.
+2. I gave thought to spreading the CSS across multiple files. There appears to be some debate about what consitutes best practice here. Ultimately I defaulted to the one-page, one-layout precept relayed to me by an experienced developer.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+3. A peculiarairty I encountered was that the email address differs between the design JPGs provided. In the desktop view, 'example@huddle.com' is displayed, while in the mobile view 'example@fylo.com' is displayed. This seemed unlikely to be intentional, but I went ahead and implemented this dynamic behaviour anyway. In a real-world scenario this would have been a question for whoever assigned me the task.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Start by cloning this repo. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to the web using [GitHub Pages](https://pages.github.com/).
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+4. I was not able to locate the circular social media icons within the resources provided. The icons which appear are the closest match I could find.
