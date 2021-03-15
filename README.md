@@ -4,6 +4,8 @@
 
 ## Completed by Ryan MacFarlane
 
+## Viewable at: https://rjlmacfarlane.github.io/huddle/
+
 ## Notes:
 
 Thank you for presenting this challenge. It has been my first experience building and styling a page from scratch and without any existing elements or default styles to work within. It was a fun and interesting learning opportunity!
