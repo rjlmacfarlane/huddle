@@ -24,6 +24,7 @@ footer {
   color: #fff;
   padding: 5px;
   bottom: 0;
+  width: 100%;
 }
 
 .header {
@@ -177,11 +178,21 @@ footer {
   padding: 5px;
   margin: 5px;
 }
+.box-parent-contact .contact-icons ul li {
+  display: flex;
+  flex-direction: row;
+}
 .box-parent-contact .contact-icons img {
+  height: 20px;
+  width: 20px;
   margin-right: 10px;
+}
+.box-parent-contact .contact-icons .email-mobile {
+  display: none;
 }
 
 .box-parent-links {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: space-around;
   width: 40%;
@@ -198,6 +209,10 @@ footer {
 @media only screen and (max-width: 376px) {
   h1 {
     font-size: 1.5em;
+  }
+
+  footer {
+    width: 100%;
   }
 
   .top-bar {
@@ -259,6 +274,50 @@ footer {
 
   .flowing-conversations {
     flex-direction: column;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    width: 95%;
+  }
+  .footer-container .copyright {
+    text-align: center;
+  }
+
+  .col3-child {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .box-parent-contact {
+    width: 370px;
+  }
+
+  .email-desktop {
+    display: none;
+  }
+
+  .email-mobile {
+    display: block !important;
+  }
+
+  .box-parent-links {
+    font-family: "Open Sans", sans-serif;
+    flex-direction: column;
+  }
+
+  .box-child-1 div, .box-child-2 div {
+    padding-left: 10px;
+    padding-bottom: 7px;
+  }
+
+  .box-parent-social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 
