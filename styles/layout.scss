@@ -167,6 +167,7 @@ a:hover, a:active {
   padding: 10px;
   img {
     width: 240px;
+    height: auto
   }
   .logo {
     margin-bottom: 20px;
@@ -320,7 +321,8 @@ a:hover, a:active {
       text-align: center;
     }
     img {
-      width: 90px;
+      width: 100px;
+      height: auto
     }
   }
 
