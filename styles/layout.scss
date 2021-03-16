@@ -166,7 +166,8 @@ a:hover, a:active {
   width: 80%;
   padding: 10px;
   img {
-    max-width: fit-content;
+    width: 240px;
+    height: auto
   }
   .logo {
     margin-bottom: 20px;
@@ -319,6 +320,10 @@ a:hover, a:active {
     width: 95%;
     .copyright {
       text-align: center;
+    }
+    img {
+      width: 100px;
+      height: auto
     }
   }
 
