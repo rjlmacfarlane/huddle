@@ -240,10 +240,7 @@ a:hover, a:active {
 
   .content-box {
     display: flex;
-    flex-direction: column-reverse;
-    box-shadow: 0px 0px 0px;
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px; }
+    flex-direction: column-reverse; }
 
   .flowing-conversations {
     flex-direction: column; }
