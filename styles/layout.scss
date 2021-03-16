@@ -166,7 +166,7 @@ a:hover, a:active {
   width: 80%;
   padding: 10px;
   img {
-    max-width: fit-content;
+    width: 240px;
   }
   .logo {
     margin-bottom: 20px;
@@ -269,7 +269,6 @@ a:hover, a:active {
     height: 9em;
     margin-left: 5%;
     margin-right: 5%;
-    flex-direction: column;
     text-align: center;
     padding-bottom: 20px;
     transform: translateY(-6em);
@@ -319,6 +318,9 @@ a:hover, a:active {
     width: 95%;
     .copyright {
       text-align: center;
+    }
+    img {
+      width: 90px;
     }
   }
 
